@@ -1,0 +1,64 @@
+.banner_img{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #ffffff;
+    width: 100%;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    height: 500px;
+}
+.banner_img_section{
+    width: 100%;
+    height: 100%;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.guide{
+    border: 1px dashed rgb(247, 0, 255);
+}
+.info_serie{
+    text-align: center;
+}
+
+.news_title{
+
+}
+
+.news_main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.test_section{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(167, 165, 168);
+}
+.news_item{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+.news_items_img{
+    display: flex;
+    padding: 10px;
+}
+.news_img{
+    border : 1px solid black;
+    width: 100%;
+    height: 100%;
+    background-color :chocolate;
+}
+.news_items_info{
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.news_section2{
+    padding : 20px
+}
