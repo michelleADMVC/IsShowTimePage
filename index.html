@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Showtime</title>
+    <title>Home_maqueta</title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -25,16 +25,18 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="img/Logo.png" width="50" height="50" alt="">
+            <img class="guide"src="img/Logo.png" width="50" height="50" alt="">
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="#">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/page2.html">Personajes</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Comunidad</a>
@@ -45,7 +47,7 @@
             </ul>
         </div>
     </nav>
-    <div class="card container-fluid banner_img guide">
+    <div class="card container-fluid banner_img  grid guide">
         <div class= " banner_img_section">
             <h1>Es hora del show</h1>
         </div>
@@ -62,7 +64,7 @@
     <div class="news_title container-fluid guide text-center">
         <h2>Noticias</h2>
     </div>
-    <div class="news_main">
+    <div class="news_main mt-4">
         <div class="news_section1 ">
             <div class="news_item ">
                 <div class="news_items_img guide">
@@ -73,8 +75,14 @@
                         <p>Esta es un item de la seccion de noticias, este item deberia tener una preview de la noticia que no supere cierto limite de caracteres, ademas debe ser un item clickleable que lleve a una pagina de la entrada</p>
                     </div>
                     <div class="social_media guide">
-                        
+                        <img  class="social_media_img" src="img/facebook.svg" alt="" srcset="">
+                        <img  class="social_media_img" src="img/instagram.svg" alt="" srcset="">
+                        <img  class="social_media_img" src="img/twitter.svg" alt="" srcset="">
+                        <div class="news_datetime guide">
+                            27-02-2020
+                        </div>
                     </div>
+          
                 </div>
             </div>
             <div class="news_item ">
@@ -82,7 +90,37 @@
                     <img class= "news_img" src="img/alinatest.jpg" alt="" srcset="">
                 </div>
                 <div class="news_items_info guide">
-                    <p>Este es otro  item de la seccion de noticias</p>
+                    <div class="article guide">
+                        <p>Los items no deberian tener mucha informacion, solo la general, y debe llamar al usuario a que le haga click, ademas la fecha podria ser una aproximado a meses en vez de una fecha exacta, creo que sirve mejor para subir "updates", tal como en pagina de Hytale</p>
+                    </div>
+                    <div class="social_media guide">
+                        <img  class="social_media_img" src="img/facebook.svg" alt="" srcset="">
+                        <img  class="social_media_img" src="img/instagram.svg" alt="" srcset="">
+                        <img  class="social_media_img" src="img/twitter.svg" alt="" srcset="">
+                        <div class="news_datetime guide">
+                            27-02-2020
+                        </div>
+                    </div>
+          
+                </div>
+            </div>
+            <div class="news_item ">
+                <div class="news_items_img guide">
+                    <img class= "news_img" src="img/alinatest.jpg" alt="" srcset="">
+                </div>
+                <div class="news_items_info guide">
+                    <div class="article guide">
+                        <p>Soy una noticia indefensa y linda, hazme click por favor...</p>
+                    </div>
+                    <div class="social_media guide">
+                        <img  class="social_media_img" src="img/facebook.svg" alt="" srcset="">
+                        <img  class="social_media_img" src="img/instagram.svg" alt="" srcset="">
+                        <img  class="social_media_img" src="img/twitter.svg" alt="" srcset="">
+                        <div class="news_datetime guide">
+                            27-02-2020
+                        </div>
+                    </div>
+          
                 </div>
             </div>
         </div>
@@ -101,7 +139,10 @@
             </ul>
         </div>
     </div>
-
+    <footer class="container-fluid mt-2 mb-2 guide text-center">
+        <p>Preguntas: La pagina de noticias deberia tener una cantidad maxima de items?, de ser asi, deberia tener una especie de pestanas en la seccion de noticias?</p>
+        <p>El pie de pagina deberia tener informacion de contacto? o un link que lleve a la pagina de contacto?</p>
+    </footer>
 </body>
 
 </html>
