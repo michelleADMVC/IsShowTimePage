@@ -1,3 +1,10 @@
+*{
+    color: #fbffff;
+}
+
+body{
+    background-color: #140e18
+}
 .banner_img{
     display : flex;
     flex-direction: row;
@@ -11,7 +18,7 @@
     height: 50px;
 }
 .grid{
-    background-color: #ffffff;
+    background-color: #140e18;
     background-image: url("https://www.transparenttextures.com/patterns/graphy.png");
 }
 .banner_img_section{
@@ -23,7 +30,7 @@
     justify-content: center;
 }
 .guide{
-    border: 1px dashed rgb(247, 0, 255);
+    border: 1px dashed #ecbc4e;
 }
 .info_serie{
     text-align: center;
@@ -34,8 +41,7 @@
 }
 
 .news_main{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
 }
 .test_section{
     width: 100%;
